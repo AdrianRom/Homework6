@@ -1,0 +1,12 @@
+h1 {
+    background-color: black;
+    color: white;
+}
+.cities {
+    border: 1pt solid black;
+    padding-top: 10px;
+}
+.five-day-forecast {
+    background-color: rgb(0, 140, 255);
+    margin: 0 3px 0 3px;
+}
