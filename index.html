@@ -39,11 +39,10 @@
             <div class="col-9">
                 <div class="row d-flex justify-content-center">
                     <div class="col-12">
-                        <h3>City Name: A Date Icon</h3>
-                        <p>Temperature: <span id="temp">N/A</span></p>
-                        <p>Humidity: <span id="humidity">N/A</span></p>
-                        <p>Wind Speed: <span id="Windspeed">N/A</span></p>
-                        <p>UV Index: <span id="uv">N/A</span></p>
+                        <h3 id="c_title" class="current-day">City Name: A Date Icon</h3>
+                        <p>Temperature: <span class="current-day" id="c_temp">N/A</span></p>
+                        <p>Humidity: <span class="current-day" id="c_humidity">N/A</span></p>
+                        <p>Wind Speed: <span class="current-day" id="c_wind">N/A</span></p>
                     </div>
                     <div class="col-12">
                     <h3>5-Day Forecast</h3>
@@ -84,8 +83,7 @@
     </div>
 
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="script.js"></script>
 </body>
 
